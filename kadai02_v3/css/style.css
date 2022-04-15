@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.reels ul {
+    list-style: none;
+}
+
+.slot {
+    width: 90%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    border : solid 1px #333 ;
+}
+.slot-frame {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border : solid 1px #333 ;
+}
+.reels {
+    width: 31%;
+    position: absolute;
+}
+.reels:nth-child(1) {
+    left: 0;
+}
+.reels:nth-child(2) {
+    left: 33%;
+}
+.reels:nth-child(3) {
+    right: 0;
+}
+.reel {
+    height: 270px;
+}
+.reel img {
+    display: block;
+    width: 89%;
+    margin: auto;
+}
+
+.btn-stop ul {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    margin: 5% 0 0 5%;
+    
+}
+
+.btn-stop li {
+    list-style: none;
+    display: flex;
+    margin: 0 0 5% 5%;
+}
