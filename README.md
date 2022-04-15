@@ -1,4 +1,4 @@
 # kadai02_slot
-スロットゲーム
+スロットゲーム  
 パクリ元  
 https://uteee.com/system/2975/
